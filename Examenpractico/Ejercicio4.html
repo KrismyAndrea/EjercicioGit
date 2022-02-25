@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function palindromo(frase){
+            let palindromo = (prompt("Ingrese la frase que cumpla el palindromo: "));
+            frase = palindromo.toLowerCase().replace(/\s/g,"");
+            let alreves = frase.split("").reverse().join("");
+            if(frase === alreves){
+                console.log("Cumple con el palindromo");
+            }else{
+                console.log("No cumple con el palindromo");
+            }
+            return palindromo;
+        }
+        palindromo();
+
+    </script>
+</body>
+
+</html>
