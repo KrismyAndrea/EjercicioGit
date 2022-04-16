@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 110vh;
+    justify-content: center;
+    background-image: url(img/Grupo\ 9213.webp);
+}
+h1,h2{
+    text-align: center;
+    color: var(--negroVenn);
+    font-size: 35px;
+    font-weight: bold;
+    font-style:normal ;
+    letter-spacing: normal;
+    line-height: 1.17;
+    padding: 15px;
+}
+h3{
+    font-family: Hind;
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--negroVenn);
+}
+h4{
+    font-family: Hind;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00b1ff;
+}
+p{
+    font-family: Hind;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--negroVenn);
+
+}
+
+.box-1{
+    line-height: 100px;        /* para la separacion entre lineas */ 
+    margin: 25px;
+    text-align: center;
+}
+.boton{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+}
+button{
+    padding: 15px 45px 18px 46px;
+    box-shadow: 0 9px 12px 0 rgb(26 72 100 / 16%);
+    background-image: linear-gradient(to top, #007fff, #00b1ff -10%);
+    color: #FFFFFF;
+    font-weight: bold;
+    border-width: 0 ;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+button:hover {
+    background: #fff;
+    border: 1px solid #00b1ff;
+    color: #00b1ff
+}
+
+.box-1-1{
+    display: grid;
+    width: 55%;
+    height: 40vh;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid rbg(199, 199, 199);
+    box-shadow: 0px 10px 10px rgb(56, 55, 55);
+    background-color: #FFFFFF;
+}
+
+.tarjeta{
+    display: grid;
+    justify-items: center;
+}
+
+.box-1-1 img{
+    width: 239px;
+    height: 239px;
+}
+.informacion{
+    margin: 20px;
+}
+
+.informacion h3,h4,p{
+    display: inline;
+}
+.estrellas img{
+    width: 30px;
+    height: 30px;
+}
+
+.contDerecha{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding-bottom: 10px;
+    column-gap: 180px;
+}
+
+.container2{
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.box-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    height: 50vh;
+    background-color: skyblue;
+ }
+ /****************************/
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+}
+
+
+.productos .tarjetaProductos img{
+    max-width: 300px;
+}
+.tarjetaProductos{
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid rbg(199, 199, 199);
+    box-shadow: 0px 10px 10px rgb(56, 55, 55);
+    padding: 16px;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    height: 480px;
+}
+
+.container3{
+    padding: 40px;
+}
+.procesos{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contProcesos{
+    background: url(img/Rectángulo\ 8199.webp) no-repeat;
+    background-size: 68%;
+    background-position: center;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 180px;
+}
+
+.subProcesos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 180px;
+}
+.subProcesos .columna p{
+    display: grid;
+    justify-content: center;
+}
+
+.columna div{
+    display: block;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+}
+.imagen1{
+    background: url(img/Grupo-7001.svg);
+}
+.imagen2{
+    background: url(img/Grupo-7002.svg);
+}
+.imagen3{
+    background: url(img/Grupo-7003.svg);
+}
+.columna img{
+    cursor: pointer;
+}
+.imagen1:hover{
+    background-image: url(img/nuevo7023.svg);
+}
+.imagen2:hover{
+    background-image: url(img/nuevo7025.svg);
+}
+.imagen3:hover{
+    background-image: url(img/Grupo-7024-1.svg);
+}
+
+.selectores{
+    text-align: center;
+    padding: 150px;
+    height: 170vh;
+    align-items: center;
+    justify-items: center;
+    background-image: url(img/Enmascarar\ grupo\ 259.webp);
+}
+
+.segundaFila{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 30px;
+}
+
+.cuadro{
+    display: grid;
+    width: 80%;
+    font-family: 'Hind';
+    font-size: 16px;
+    color: #002b39;
+    word-break: break-all;
+    margin: 15px 6%;
+    padding: 22px 5%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 20px 15px rgb(26, 72, 100 / 10%);
+    border: 1px solid #c3d5e0;
+    background-image: linear-gradient(to bottom, #fff, #fff, 78%, #f0feff);
+    justify-items: center;
+}
+
+.cuadro .b{
+    font-weight: bold;
+}
+footer{
+    background-color: #1489ff;
+}
+
+.contenedorFooter{
+    padding-top: 40px;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.primeraFila{
+    display: grid;
+    grid-template-columns: 1fr 10fr repeat(6, 1fr) ;
+    align-items: center;
+    justify-items: end;
+    padding-bottom: 40px;
+}
+
+#logoVennFooter{
+    justify-self: start;
+}
+
+.footer-bottom{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    display: grid;
+    /*grid-template-columns: 2fr 2fr 4fr 4fr 3fr;*/
+    grid-template-columns: 1fr 6fr 3fr 3fr 2fr;
+    border-top: #Ffffff solid thin;
+    text-align: right;
+}
+
+.footer-text{
+    font-family: 'Hind', sans-serif, 'arial';
+    color: #Ffffff;
+    text-decoration: none;
+}
